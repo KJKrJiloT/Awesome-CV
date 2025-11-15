@@ -1,18 +1,5 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
-% Awesome CV LaTeX Template for Cover Letter
-%
-% This template has been downloaded from:
-% https://github.com/posquit0/Awesome-CV
-%
-% Authors:
-% Claud D. Park <posquit0.bj@gmail.com>
-% Lars Richter <mail@ayeks.de>
-%
-% Template license:
-% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
-%
-
 
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
@@ -32,11 +19,11 @@
 
 % Colors for text
 % Uncomment if you would like to specify your own color
-% \definecolor{darktext}{HTML}{414141}
-% \definecolor{text}{HTML}{333333}
-% \definecolor{graytext}{HTML}{5D5D5D}
-% \definecolor{lighttext}{HTML}{999999}
-% \definecolor{sectiondivider}{HTML}{5D5D5D}
+\definecolor{darktext}{HTML}{414141}
+\definecolor{text}{HTML}{333333}
+\definecolor{graytext}{HTML}{5D5D5D}
+\definecolor{lighttext}{HTML}{999999}
+\definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
@@ -50,21 +37,21 @@
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-\photo[circle,noedge,left]{./examples/profile}
-\name{Claud D.}{Park}
-\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
-\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
+%\photo[80pt]{./profile.png}
+\photo[circle,noedge,left]{./profile.png}
+\name{Junhee}{Cho}
+\position{Graduate Researcher in Quantum Computing and Semiconductor Devices}
+\address{Yeonil-eup, Nam-gu, Pohang-si, Gyeongsangbuk-do, 37655, Republic of Korea}
 
-\mobile{(+82) 10-9030-1843}
-\email{posquit0.bj@gmail.com}
-%\dateofbirth{January 1st, 1970}
-\homepage{www.posquit0.com}
-\github{posquit0}
-\linkedin{posquit0}
+\mobile{(+82) 10-4706-7446}
+\email{junheecho@postech.ac.kr}
+%\dateofbirth{March 30th, 1996}
+%\homepage{www.posquit0.com}
+%\github{posquit0}
+%\linkedin{Junhee Cho}
 % \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
-% \x{x-id}
 % \skype{skype-id}
 % \reddit{reddit-id}
 % \medium{madium-id}
@@ -76,7 +63,7 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra information}
 
-\quote{``Be the change that you want to see in the world."}
+%\quote{``Be the change that you want to see in the world."}
 
 
 %-------------------------------------------------------------------------------
@@ -84,20 +71,16 @@
 %	All of the below lines must be filled out
 %-------------------------------------------------------------------------------
 % The company being applied to
-\recipient
-  {Company Recruitment Team}
-  {Google Inc.\\1600 Amphitheatre Parkway\\Mountain View, CA 94043}
 % The date on the letter, default is the date of compilation
-\letterdate{\today}
+%\letterdate{\today}
 % The title of the letter
-\lettertitle{Job Application for Software Engineer}
+\lettertitle{Application for Ph.D Program}
 % How the letter is opened
-\letteropening{Dear Mr./Ms./Dr. LastName,}
+\letteropening{\textbf{Dear Prof. Sanghoon Chae,}}
 % How the letter is closed
 \letterclosing{Sincerely,}
 % Any enclosures with the letter
 \letterenclosure[Attached]{Curriculum Vitae}
-
 
 %-------------------------------------------------------------------------------
 \begin{document}
@@ -105,31 +88,43 @@
 % Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[R]
-
+\vspace{-15mm}
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
 \makecvfooter
-  {\today}
-  {Claud D. Park~~~·~~~Cover Letter}
+  {}
+  {Junhee Cho~~~·~~~Cover Letter}
   {}
 
-% Print the title with above letter information
-\makelettertitle
-
+% Define recipient name and address
+%\makelettertitle
+\vspace{14 mm}
+\underline{\textbf{Application for Ph.D Program}}\\
+\textbf{Dear Prof. Sanghoon Chae,}
+\vspace{-1 mm}
 %-------------------------------------------------------------------------------
 %	LETTER CONTENT
 %-------------------------------------------------------------------------------
 \begin{cvletter}
 
-\lettersection{About Me}
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ullamcorper neque sit amet lectus facilisis sed luctus nisl iaculis. Vivamus at neque arcu, sed tempor quam. Curabitur pharetra tincidunt tincidunt. Morbi volutpat feugiat mauris, quis tempor neque vehicula volutpat. Duis tristique justo vel massa fermentum accumsan. Mauris ante elit, feugiat vestibulum tempor eget, eleifend ac ipsum. Donec scelerisque lobortis ipsum eu vestibulum. Pellentesque vel massa at felis accumsan rhoncus.
-
-\lettersection{Why Google?}
-Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et est urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
-
-\lettersection{Why Me?}
-Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
-
+    \lettersection{Who Am I}
+    \color{darktext}
+    I am Junhee Cho, currently pursuing a Master’s degree in Electrical Engineering at Pohang University of Science and Technology (POSTECH), with an expected graduation in February 2026. I earned my Bachelor’s degree in Electrical and Electronics Engineering from Hongik University, graduating with a GPA of 3.96/4.5 and a major GPA of 4.32/4.5. During my undergraduate studies, I researched GaN power devices and circuit simulations. At POSTECH, I am part of the Quantum Computing and Quantum Networks (QCQN) Laboratory, specializing in construction of cryogenic ion trap quantum computing system, which requires highly reliable system design and implementation. As a researcher, I define myself by my resourcefulness, systematically overcoming recurring challenges in the laboratory and achieving the trapping of two ion qubits. My experience in semiconductor design and quantum hardware has equipped me with the expertise to innovate in developing reliable and efficient devices, solidifying my identity as a resourceful and determined researcher.
+    
+    \lettersection{What I Have Done}
+    \color{darktext}
+    My research spans both semiconductor device optimization and quantum hardware development, providing me with a broad and interdisciplinary technical foundation. At Hongik University’s Advanced Semiconductor Technology Lab (ASTL), I investigated the integration of depletion-mode AlGaN/GaN MOS-HFETs with clamp circuits to achieve normally-off operation. Using Silvaco-ATLAS, I developed a model that precisely replicated real device behavior, converting it into a SPICE model for circuit simulation. This work resulted in a DC-DC boost converter with 99.5\% power conversion efficiency, earning me the Undergraduate Poster Presentation Award at the $30^{th}$ Korean Conference on Semiconductors.
+    
+    Building upon this foundation, I shifted my focus toward quantum hardware at POSTECH. At QCQN Laboratory, I spearheaded the design and fabrication of a cryogenic ion trap system, successfully trapping two $^{40}$Ca$^{+}$ ion qubits for quantum computing research. Through this project, I gained hands-on experience with ion trap fabrication and electrode plating. I also designed stable electrical signal delivery systems, built laser systems with low power fluctuation and tunable frequency, and constructed ultra-high vacuum(UHV) systems. This research was awarded the On-Site Outstanding Poster Award at the 31$^{st}$ Korean Conference on Semiconductors. Currently, I am investigating light-induced charging effects caused by oxide patches on electrodes. Based on surface photovoltage (SPV) theory, I am currently drafting a research paper on photon-induced surface charge dynamics, ultimately aiming to suppress surface-induced stray electric fields and enhance the long-term stability of trapped-ion qubits.
+    
+    \lettersection{What I Want To Achieve}
+    \color{darktext}
+    My previous research experiences have equipped me with a versatile skill set in semiconductor simulation and quantum hardware development. Drawing upon these experiences, I am certain that my acquired expertise will help me become productive within Chae Lab, contributing positively to your research efforts.
+    
+    Photonic integrated circuits (PICs) have attracted considerable interest because they can address fundamental limitations of conventional electronic interconnects, such as bandwidth, transmission speed, and power consumption. Among various PIC technologies, I am especially interested in microring resonators. While exploring your recent publications, I was particularly interested in your demonstration of reducing insertion loss by integrating graphene-TMD hybrid structures onto SiN microrings, as well as introducing strong electrical tunability and nonlinearity through the integration of ferroelectric NbOBr₂. These results clearly outline a roadmap toward compact, low-loss, and multifunctional photonic devices, and I have become eager to deeply explore and contribute further to this research direction.
+    
+    In the short term, I hope to acquire comprehensive expertise in device fabrication techniques, characterization methods, and integration processes actively used in your lab, thereby contributing meaningfully to ongoing research projects. For the long term, I aspire to leverage 2D materials and their unique nonlinear optical properties to develop electrically tunable, highly efficient photonic architectures, ultimately enabling advanced functionalities such as chip-scale frequency conversion, optical modulation, and integrated quantum photonic processing. It would truly be an honor to have the opportunity to join your research group and receive your guidance. Thank you very much for your valuable time and consideration, and I sincerely hope to be given this precious opportunity.
+    
 \end{cvletter}
 
 
