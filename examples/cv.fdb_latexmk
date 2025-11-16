@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763193437.27523 "/Users/junheecho/Projects/CV/examples/cv.tex" "cv.pdf" "cv" 1763193439.10203 0
+["pdflatex"] 1763296572.11977 "/Users/junheecho/Projects/CV/examples/cv.tex" "cv.pdf" "cv" 1763296573.90135 0
   "/Users/junheecho/Projects/CV/examples/cv.tex" 1763193437.09043 3261 580c0ac4db7046a1daf27afe9e4a5abf ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -170,15 +170,15 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1762874951 5639810 d40420fe5dcc9244c665394ea059c289 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "awesome-cv.cls" 1763193395.64224 29967 1562a64ec84d6a74f1a9086ea76572c7 ""
-  "cv.aux" 1763193438.72904 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
+  "cv.aux" 1763296573.55137 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
   "cv.tex" 1763193437.09043 3261 580c0ac4db7046a1daf27afe9e4a5abf ""
   "cv/conferences.tex" 1763192677.51234 1882 9a71d8e89193c70a9ccf685a734b8889 ""
-  "cv/education.tex" 1763192686.74074 1397 02496a3ed3d5fd6c03d50bfb73305a7f ""
+  "cv/education.tex" 1763295539.34873 1408 37259baf2d91eeab8f57beaab362d8a0 ""
   "cv/experience.tex" 1763192696.77897 3046 7fa9d7a875e266b6634ed6beb3b21abd ""
   "cv/honors.tex" 1763192715.66738 1357 05bc63e95fa56875e223f4ad09b6be6e ""
-  "cv/patents.tex" 1763192745.37977 1181 0fd2db75b5308aec70c7bfbe3f36cf56 ""
+  "cv/patents.tex" 1763296365.49255 1064 35420b35cf5cb033c83941bf23e328d8 ""
   "cv/publications.tex" 1763192772.26129 1036 63ee2e1d41092e2fb0bd6fcd47d82b59 ""
-  "cv/skills.tex" 1763192781.43775 1261 f2d89d20ff231f73e6127add9bfee079 ""
+  "cv/skills.tex" 1763296571.87358 1269 ed4f906534ca088e091cf8a4f311fb7e ""
   (generated)
   "cv.aux"
   "cv.log"
