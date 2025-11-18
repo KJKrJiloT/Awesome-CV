@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763296572.11977 "/Users/junheecho/Projects/CV/examples/cv.tex" "cv.pdf" "cv" 1763296573.90135 0
-  "/Users/junheecho/Projects/CV/examples/cv.tex" 1763193437.09043 3261 580c0ac4db7046a1daf27afe9e4a5abf ""
+["pdflatex"] 1763469029.63776 "/Users/junheecho/Projects/CV/examples/cv.tex" "cv.pdf" "cv" 1763469031.46393 0
+  "/Users/junheecho/Projects/CV/examples/cv.tex" 1763468647.90416 3274 6401923239df0be0aa0d84f120e4888d ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -170,15 +170,15 @@
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1762874951 5639810 d40420fe5dcc9244c665394ea059c289 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
   "awesome-cv.cls" 1763193395.64224 29967 1562a64ec84d6a74f1a9086ea76572c7 ""
-  "cv.aux" 1763296573.55137 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
-  "cv.tex" 1763193437.09043 3261 580c0ac4db7046a1daf27afe9e4a5abf ""
-  "cv/conferences.tex" 1763192677.51234 1882 9a71d8e89193c70a9ccf685a734b8889 ""
-  "cv/education.tex" 1763295539.34873 1408 37259baf2d91eeab8f57beaab362d8a0 ""
+  "cv.aux" 1763469031.10491 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
+  "cv.tex" 1763468647.90416 3274 6401923239df0be0aa0d84f120e4888d ""
+  "cv/conferences.tex" 1763468701.02491 1882 9a71d8e89193c70a9ccf685a734b8889 ""
+  "cv/education.tex" 1763469029.45362 1442 810cb5d7b3cfb1b4a3c40f79ab5539fc ""
   "cv/experience.tex" 1763192696.77897 3046 7fa9d7a875e266b6634ed6beb3b21abd ""
   "cv/honors.tex" 1763192715.66738 1357 05bc63e95fa56875e223f4ad09b6be6e ""
-  "cv/patents.tex" 1763296365.49255 1064 35420b35cf5cb033c83941bf23e328d8 ""
+  "cv/patents.tex" 1763296688.65622 1064 35420b35cf5cb033c83941bf23e328d8 ""
   "cv/publications.tex" 1763192772.26129 1036 63ee2e1d41092e2fb0bd6fcd47d82b59 ""
-  "cv/skills.tex" 1763296571.87358 1269 ed4f906534ca088e091cf8a4f311fb7e ""
+  "cv/skills.tex" 1763296687.39112 1269 ed4f906534ca088e091cf8a4f311fb7e ""
   (generated)
   "cv.aux"
   "cv.log"
