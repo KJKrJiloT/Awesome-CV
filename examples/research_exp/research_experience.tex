@@ -10,11 +10,12 @@
 \usepackage{caption}
 \usepackage{subcaption}
 \usepackage{amsmath,amssymb}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 \usepackage{enumitem}
 \usepackage{blindtext}
 \usepackage{ragged2e}
 \usepackage{titlesec}
+\usepackage{float}
 
 \setstretch{1.15} 
 \setlength{\parskip}{0.3em}
@@ -45,26 +46,26 @@
 \vspace{0.5 cm}
 \subsection{Design and fabrication of multi-layer ion trap chip}
 
-\begin{figure}[!h]
+\begin{figure}[H]
     \centering
     \begin{minipage}{6in}
         \includegraphics[width=6 in]{figures/figure1.pdf}
         \captionsetup{width=\linewidth}
         \caption{
-        (\textbf{a}) Cross-sectional view of the designed multi-layer ion trap and simulated radial potential distribution (Ansys Maxwell 3D).
+        (\textbf{a}) Cross-sectional view of the designed multi-layer ion trap and simulated radial field distribution (Ansys Maxwell 3D).
         (\textbf{b}) Photograph of the fabricated multi-layer ion trap chip.
         }
         \label{fig:figure1}
     \end{minipage}
 \end{figure}
 
-\begin{itemize}[leftmargin=3.0em, itemsep=0.0em, topsep=0.0em]
-    \item Designed a multi-layer ion trap chip composed of nine stacked layers, including DC/RF layers for providing trapping potential, shim layers to compensate the principal axes and micromotion, and spacer layers. A shield layer is positioned on the top of the chip to collimate the ablated atomic beam. The DC electrodes are segmented to enable ion shuttling, as depicted in Fig.~\ref{fig:figure1}(a, left).
-    \item Simulated the designed structure with $\Omega_{\mathrm{RF}} = 2\pi\cdot 20.26~\mathrm{MHz}$ and $V_{\mathrm{RF}} = 75~\mathrm{V}$ using Ansys Maxwell 3D electrostatic simulations, as shown in Fig.~\ref{fig:figure1}(a, right). The results yield radial secular frequencies of about $3~\mathrm{MHz}$, in good agreement with the experimentally measured values.
+\begin{itemize}[leftmargin=3.0em, itemsep=0.0em, topsep=-0.0cm]
+    \item Designed a multi-layer ion trap chip composed of nine stacked layers, including DC/RF layers that provide the trapping potential, shim layers to compensate the principal axes and micromotion, and spacer layers. A shield layer is positioned on the top of the chip to collimate the ablated atomic beam. The DC electrodes are segmented to enable ion shuttling, as depicted in Fig.~\ref{fig:figure1}(a, left).
+    \item Simulated the designed structure with $\Omega_{\mathrm{RF}} = 2\pi\cdot 20.26~\mathrm{MHz}$ and $V_{\mathrm{RF}} = 75~\mathrm{V}$ using the Ansys Maxwell 3D electrostatic solver, as shown in Fig.~\ref{fig:figure1}(a, right). The simulations yield radial secular frequencies of about $3~\mathrm{MHz}$, in good agreement with the experimentally measured values.
     \item Laser-cut the alumina substrate using a picosecond laser, deposited a Ti adhesion layer by sputtering, and electroplated Au to form the electrodes. The fabricated multi-layer chip is shown in Fig.~\ref{fig:figure1}(b).
 \end{itemize}
 
-\vspace{0.5 cm}
+\vspace{0.0 cm}
 \subsection{Construction of cryogenic ion trap system}
 \begin{figure}[!h]
     \centering
@@ -81,7 +82,7 @@
 \end{figure}
 
 
-\begin{itemize}[leftmargin=3.0em, itemsep=0.0em, topsep=0.0em]
+\begin{itemize}[leftmargin=3.0em, itemsep=0.0em, topsep=-0.0 mm]
     \item Constructed the entire cryogenic ion trap system, as shown in Fig.~\ref{fig:figure2}(a). 
     \textcircled{1} is the cryogenic station that contains the ion trap and the cool-down system to reach a temperature of 4~K. 
     \textcircled{2} is the ion fluorescence imaging system with a high-gain EMCCD camera. 
@@ -91,15 +92,16 @@
     
     \item In the laser system, implemented a laser power-lock scheme using a PID control loop on an FPGA board and a high-resolution frequency modulation system. All of these are integrated into the experimental sequence via a home-made PyQt-based user interface (UI).
     
-    \item In Fig.~\ref{fig:figure2}(b), the ion trap is located at the center of the cryogenic station and is enclosed in an oxygen-free high thermal conductivity (OFHC) copper chamber with low-pass filter boards mounted on each side. A high-NA (0.38) objective lens is positioned above the trap and mounted on a cryo-compatible XYZ piezo translation stage, and the trap is connected via two DC ribbon cables and an RF coaxial cable. Outside the cryogenic station, a pair of coils provides a 4.2~G magnetic field at the ion position.
+    \item In Fig.~\ref{fig:figure2}(b), the ion trap is located at the center of the cryogenic station and is enclosed in an oxygen-free high thermal conductivity (OFHC) copper chamber with low-pass filter boards mounted on each side. A high-NA (0.38) objective lens is positioned above the trap and mounted on a cryo-compatible XYZ piezo translation stage, and the trap is connected via two DC ribbon cables and an RF coaxial cable. Outside the cryogenic station, a pair of Helmholtz coils is used to generate a 4.2~G magnetic field at the ion position.
+
     
-    \item Demonstrated trapping of up to two ions and performed micromotion compensation by narrowing the Lorentzian linewidth in 397~nm spectroscopy, as shown in Fig.~\ref{fig:figure2}(c).
+    \item Demonstrated trapping of up to two ions with $(\omega_x,\omega_y)=2\pi\cdot (2.75,2.88)~\text{MHz}$ and performed micromotion compensation by narrowing the Lorentzian linewidth in 397~nm spectroscopy, as shown in Fig.~\ref{fig:figure2}(c).
     
-    \item Presented this cryogenic ion-trap setup and preliminary results at the 2024 Korean Conference on Semiconductors and received an on-site outstanding poster award.
+    \item Presented the progress of the cryogenic ion trap setup and preliminary results at the 2024 Korean Conference on Semiconductors and received an on-site outstanding poster award.
 \end{itemize}
 
-\vspace{0.5 cm}
-\subsection{Investigation of light-induced charging effect on the trap electrodes}
+\vspace{0.3 cm}
+\subsection{Investigation of light-induced charging effects on the trap electrodes}
 
 \begin{figure}[h]
     \centering
@@ -149,26 +151,26 @@
     \end{minipage}
 \end{figure}
 
+\vspace{0.5 cm}
 \section{Normally-off GaN MOS-HFET}
 \hspace{0.5 cm}
-\textbf{Affiliation:} Advanced Semiconductor Technology Lab.(ASTL) laboratory, Hongik University \hfill
+\textbf{Affiliation:} Advanced Semiconductor Technology Lab. (ASTL), Hongik University \hfill
 
 \hspace{0.5 cm}
 \textbf{Supervisor:} Prof.~Ho-young Cha
 
-\subsection{Modeling normally-on GaN/AlGaN HEMT}
+\subsection{Modeling of a normally-on GaN/AlGaN HEMT}
 
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \begin{minipage}{6in}
         \includegraphics[width=6 in]{figures/figure5.pdf}
         \captionsetup{width=\linewidth}
         \caption{
         (\textbf{a})
-        Cross-section view of multi-layer trap and Maxwell simulation result on radial plane
-        and
-        (\textbf{b})
-        Fabricated multi-layer ion trap
+        Schematic of AlGaN/GaN MOS-HFET integrated with a clamp circuit,
+        (\textbf{b}) TCAD (Silvaco) model structure,
+        (\textbf{c}) I--V characteristics of TCAD and LTspice models 
         }
         \label{fig:figure5}
     \end{minipage}
@@ -183,7 +185,7 @@
 
 \subsection{Optimization of circuit}
 
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \begin{minipage}{6in}
         \includegraphics[width=6 in]{figures/figure6.pdf}
@@ -207,7 +209,7 @@
 
 \subsection{DC-DC boost converter circuit}
 
-\begin{figure}[h]
+\begin{figure}[!h]
     \centering
     \begin{minipage}{6in}
         \includegraphics[width=6 in]{figures/figure7.pdf}
@@ -227,7 +229,7 @@
 
 \begin{itemize}[leftmargin=3.0em, itemsep=0.2em, topsep=0.2em, parsep=0pt]
     \item Verified the operation of the normally-off GaN MOS-HFET in a DC--DC boost converter and showed that, for clamp capacitances larger than $5~\mathrm{nF}$, the circuit achieves a power-conversion efficiency of up to $99.5\%$ at a switching frequency of $1~\mathrm{MHz}$.
-    \item Presented the results at the 2022 Conference on Semiconductor Engineering and at the 2023 Korean Conference on Semiconductors, where I received an undergraduate poster presentation award.
+    \item Presented the results at the 2022 Conference on Semiconductor Engineering and at the 2023 Korean Conference on Semiconductors, where I received an undergraduate poster presentation award for this work.
 \end{itemize}
 
 \end{document}

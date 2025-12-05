@@ -1,43 +1,22 @@
 %!TEX TS-program = xelatex
 %!TEX encoding = UTF-8 Unicode
 
-%-------------------------------------------------------------------------------
-% CONFIGURATIONS
-%-------------------------------------------------------------------------------
-% A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[11pt, a4paper]{awesome-cv}
 
-% Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Color for highlights
-% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
-%                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-red}
-% Uncomment if you would like to specify your own color
-% \definecolor{awesome}{HTML}{CA63A8}
+\colorlet{awesome}{awesome-darknight}
 
-% Colors for text
-% Uncomment if you would like to specify your own color
 \definecolor{darktext}{HTML}{414141}
 \definecolor{text}{HTML}{333333}
 \definecolor{graytext}{HTML}{5D5D5D}
 \definecolor{lighttext}{HTML}{999999}
 \definecolor{sectiondivider}{HTML}{5D5D5D}
 
-% Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
-
-% If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-
-%-------------------------------------------------------------------------------
-%	PERSONAL INFORMATION
-%	Comment any of the lines below if they are not required
-%-------------------------------------------------------------------------------
-% Available options: circle|rectangle,edge/noedge,left/right
-%\photo[80pt]{./profile.png}
+%-------------------- Personal info --------------------
 \photo[circle,noedge,left]{./profile.png}
 \name{Junhee}{Cho}
 \position{Graduate Researcher in Quantum Computing and Semiconductor Devices}
@@ -45,91 +24,53 @@
 
 \mobile{(+82) 10-4706-7446}
 \email{junheecho@postech.ac.kr}
-%\dateofbirth{March 30th, 1996}
-%\homepage{www.posquit0.com}
-%\github{posquit0}
-%\linkedin{Junhee Cho}
-% \gitlab{gitlab-id}
-% \stackoverflow{SO-id}{SO-name}
-% \twitter{@twit}
-% \skype{skype-id}
-% \reddit{reddit-id}
-% \medium{madium-id}
-% \kaggle{kaggle-id}
-% \hackerrank{hackerrank-id}
-% \telegram{telegram-username}
-% \googlescholar{googlescholar-id}{name-to-display}
-%% \firstname and \lastname will be used
-% \googlescholar{googlescholar-id}{}
-% \extrainfo{extra information}
 
-%\quote{``Be the change that you want to see in the world."}
+\lettertitle{Personal Statement}
+\letteropening{}
+\letterclosing{}
+\letterenclosure{}
 
-
-%-------------------------------------------------------------------------------
-%	LETTER INFORMATION
-%	All of the below lines must be filled out
-%-------------------------------------------------------------------------------
-% The company being applied to
-% The date on the letter, default is the date of compilation
-%\letterdate{\today}
-% The title of the letter
-\lettertitle{Application for Ph.D Program}
-% How the letter is opened
-\letteropening{\textbf{Dear Prof. Sanghoon Chae,}}
-% How the letter is closed
-\letterclosing{Sincerely,}
-% Any enclosures with the letter
-\letterenclosure[Attached]{Curriculum Vitae}
-
-%-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal information
-% Give optional argument to change alignment(C: center, L: left, R: right)
 \makecvheader[R]
-\vspace{-15mm}
-% Print the footer with 3 arguments(<left>, <center>, <right>)
-% Leave any of these blank if they are not needed
-\makecvfooter
-  {}
-  {Junhee Cho~~~·~~~Cover Letter}
-  {}
+\vspace{5mm}
 
-% Define recipient name and address
-%\makelettertitle
-\vspace{14 mm}
-\underline{\textbf{Application for Ph.D Program}}\\
-\textbf{Dear Prof. Sanghoon Chae,}
-\vspace{-1 mm}
-%-------------------------------------------------------------------------------
-%	LETTER CONTENT
-%-------------------------------------------------------------------------------
+{\Large \textbf{Personal Statement}}\\[1mm]
+{\small Ph.D in Electrical and Electronic Engineering, Nanyang Technological University}
+
+\vspace{2mm}
+
 \begin{cvletter}
 
-    \lettersection{Who Am I}
-    \color{darktext}
-    I am Junhee Cho, currently pursuing a Master’s degree in Electrical Engineering at Pohang University of Science and Technology (POSTECH), with an expected graduation in February 2026. I earned my Bachelor’s degree in Electrical and Electronics Engineering from Hongik University, graduating with a GPA of 3.96/4.5 and a major GPA of 4.32/4.5. During my undergraduate studies, I researched GaN power devices and circuit simulations. At POSTECH, I am part of the Quantum Computing and Quantum Networks (QCQN) Laboratory, specializing in construction of cryogenic ion trap quantum computing system, which requires highly reliable system design and implementation. As a researcher, I define myself by my resourcefulness, systematically overcoming recurring challenges in the laboratory and achieving the trapping of two ion qubits. My experience in semiconductor design and quantum hardware has equipped me with the expertise to innovate in developing reliable and efficient devices, solidifying my identity as a resourceful and determined researcher.
-    
-    \lettersection{What I Have Done}
-    \color{darktext}
-    My research spans both semiconductor device optimization and quantum hardware development, providing me with a broad and interdisciplinary technical foundation. At Hongik University’s Advanced Semiconductor Technology Lab (ASTL), I investigated the integration of depletion-mode AlGaN/GaN MOS-HFETs with clamp circuits to achieve normally-off operation. Using Silvaco-ATLAS, I developed a model that precisely replicated real device behavior, converting it into a SPICE model for circuit simulation. This work resulted in a DC-DC boost converter with 99.5\% power conversion efficiency, earning me the Undergraduate Poster Presentation Award at the $30^{th}$ Korean Conference on Semiconductors.
-    
-    Building upon this foundation, I shifted my focus toward quantum hardware at POSTECH. At QCQN Laboratory, I spearheaded the design and fabrication of a cryogenic ion trap system, successfully trapping two $^{40}$Ca$^{+}$ ion qubits for quantum computing research. Through this project, I gained hands-on experience with ion trap fabrication and electrode plating. I also designed stable electrical signal delivery systems, built laser systems with low power fluctuation and tunable frequency, and constructed ultra-high vacuum(UHV) systems. This research was awarded the On-Site Outstanding Poster Award at the 31$^{st}$ Korean Conference on Semiconductors. Currently, I am investigating light-induced charging effects caused by oxide patches on electrodes. Based on surface photovoltage (SPV) theory, I am currently drafting a research paper on photon-induced surface charge dynamics, ultimately aiming to suppress surface-induced stray electric fields and enhance the long-term stability of trapped-ion qubits.
-    
-    \lettersection{What I Want To Achieve}
-    \color{darktext}
-    My previous research experiences have equipped me with a versatile skill set in semiconductor simulation and quantum hardware development. Drawing upon these experiences, I am certain that my acquired expertise will help me become productive within Chae Lab, contributing positively to your research efforts.
-    
-    Photonic integrated circuits (PICs) have attracted considerable interest because they can address fundamental limitations of conventional electronic interconnects, such as bandwidth, transmission speed, and power consumption. Among various PIC technologies, I am especially interested in microring resonators. While exploring your recent publications, I was particularly interested in your demonstration of reducing insertion loss by integrating graphene-TMD hybrid structures onto SiN microrings, as well as introducing strong electrical tunability and nonlinearity through the integration of ferroelectric NbOBr₂. These results clearly outline a roadmap toward compact, low-loss, and multifunctional photonic devices, and I have become eager to deeply explore and contribute further to this research direction.
-    
-    In the short term, I hope to acquire comprehensive expertise in device fabrication techniques, characterization methods, and integration processes actively used in your lab, thereby contributing meaningfully to ongoing research projects. For the long term, I aspire to leverage 2D materials and their unique nonlinear optical properties to develop electrically tunable, highly efficient photonic architectures, ultimately enabling advanced functionalities such as chip-scale frequency conversion, optical modulation, and integrated quantum photonic processing. It would truly be an honor to have the opportunity to join your research group and receive your guidance. Thank you very much for your valuable time and consideration, and I sincerely hope to be given this precious opportunity.
-    
+  \lettersection{Background and Motivation}
+  \color{darktext}
+  I am Junhee Cho, currently pursuing a Master’s degree in Electrical Engineering at Pohang University of Science and Technology (POSTECH), with an expected graduation in February 2026. I obtained my Bachelor’s degree in Electrical and Electronics Engineering from Hongik University. Throughout my studies, I have been drawn to hardware at the intersection of physics, devices, and systems. Starting from GaN power devices and circuit simulations and later moving into cryogenic trapped-ion quantum computing, I have become strongly motivated to develop photonic and quantum hardware for next-generation computing architectures.
+
+  These experiences have convinced me that future high-performance and quantum-enhanced computing will rely on carefully engineered physical platforms that combine electronic, photonic, and quantum degrees of freedom. I am particularly fascinated by photonic integrated circuits (PICs) and hybrid 2D-material/silicon photonic systems, which offer a promising route to overcome the bandwidth and energy limitations of conventional electronic interconnects while enabling new quantum and nonlinear functionalities. This motivation has led me to apply to the Ph.D.\ programme in Electrical and Electronic Engineering at NTU, where I hope to deepen my expertise in nanomaterials-integrated photonics and photonic integrated chips for quantum processing.
+
+  \lettersection{Research Preparation}
+  \color{darktext}
+  My research background spans both semiconductor device optimization and quantum hardware development, providing me with a broad and interdisciplinary technical foundation. At Hongik University’s Advanced Semiconductor Technology Lab (ASTL), I investigated the integration of depletion-mode AlGaN/GaN MOS-HFETs with clamp circuits to achieve normally-off operation. Using Silvaco ATLAS, I developed a device model that closely reproduced measured characteristics and converted it into a SPICE model for circuit-level simulations. Based on this model, I designed a DC–DC boost converter that achieved 99.5\% power-conversion efficiency, work that was recognised with the Undergraduate Poster Presentation Award at the 30th Korean Conference on Semiconductors.
+
+  Building on this foundation, I shifted my focus to quantum hardware at POSTECH. In the Quantum Computing and Quantum Networks (QCQN) Laboratory, I have been responsible for major components of a cryogenic trapped-ion quantum computing platform. I participated in designing and fabricating a multilayer ion-trap chip, developing stable electrical signal-delivery systems, and constructing laser systems with low power fluctuation and tunable frequency. I also contributed to building an ultra-high-vacuum cryogenic system and successfully trapping and imaging two $^{40}$Ca$^{+}$ ion qubits. This work received the On-Site Outstanding Poster Award at the 31st Korean Conference on Semiconductors.
+
+  Currently, I am investigating light-induced charging effects on trap electrodes, where oxide patches and UV illumination generate stray electric fields that degrade ion-trap stability. Using concepts from surface photovoltage theory, I analyse photon-induced surface charge dynamics with the goal of suppressing these effects and improving the long-term stability of trapped-ion qubits. Through these projects, I have gained hands-on experience in device and circuit simulation, optical and RF system design, and experimental quantum hardware, which I believe prepare me well for research in integrated photonics and nanomaterial-based optoelectronic devices.
+
+  \newpage
+
+  \lettersection{Alignment with NTU EEE and Future Goals}
+  \color{darktext}
+  I am particularly excited about the opportunity to conduct research in NTU EEE, where there is strong expertise in 2D materials, van der Waals heterostructures, and silicon photonics. Professor Sanghoon Chae’s work on 2D materials-integrated Si photonics, heterogeneous integration of diverse optical materials on photonic chips, and photonic integrated chips for quantum processing closely matches my interests in photonic integrated circuits and hybrid 2D-material/silicon platforms. I see a natural connection between my previous experience in device-level modelling and quantum hardware and the programme’s strengths in nanomaterials-integrated photonics and quantum photonic architectures on chip.
+
+  As part of my Ph.D.\ studies at NTU, I plan to work on a project that develops micro-LED integrated silicon photonic interconnects for data-intensive and AI computing systems. By replacing conventional laser-based links with micro-LED arrays on silicon photonic platforms, this project aims to realise massively parallel, multi-wavelength optical interconnects that are compact, energy-efficient, and compatible with CMOS wafer-level fabrication. I am particularly interested in designing on-chip silicon photonic waveguides and photonic cavities, such as microring resonators and photonic crystal structures, in order to enhance modulation bandwidth and light--matter interaction through resonance and Purcell effects. This planned research is closely aligned with my broader interests in silicon PICs, heterogeneous integration of nanomaterials and 2D materials on chip, and photonic integrated chips for quantum processing.
+
+  In the short term, I hope to acquire comprehensive expertise in device fabrication, optical characterisation, and heterogeneous integration techniques used in nanomaterial-based photonic devices. In the longer term, I aim to contribute to the development of electrically tunable, highly efficient photonic architectures that can support functions such as chip-scale frequency conversion, ultrafast optical interconnects, and integrated quantum photonic processing. My career goal is to become a researcher who can bridge semiconductor devices, integrated photonics, and quantum hardware, whether in academia or in a leading research institute or industry lab. I believe that the Ph.D.\ programme in Electrical and Electronic Engineering at NTU, with its strong environment in nanomaterials and integrated photonics, is the ideal next step toward this goal, and I would be honoured to contribute to its research community.
+
 \end{cvletter}
 
 
 %-------------------------------------------------------------------------------
 % Print the signature and enclosures with above letter information
-\makeletterclosing
+%\makeletterclosing
 
 \end{document}

@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1763194184.76938 "/Users/junheecho/Projects/CV/examples/coverletter.tex" "coverletter.pdf" "coverletter" 1763194186.7407 0
-  "/Users/junheecho/Projects/CV/examples/coverletter.tex" 1763194184.58071 8981 f5c8a7f02b57b0835e046fc39ddf8e44 ""
+["pdflatex"] 1764919985.84874 "/Users/junheecho/Projects/CV/examples/coverletter.tex" "coverletter.pdf" "coverletter" 1764919987.88788 0
+  "/Users/junheecho/Projects/CV/examples/coverletter.tex" 1764919985.43183 7634 df8cf6a715e00f8c3e69316af2c777b2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -166,9 +166,9 @@
   "/usr/local/texlive/2025/texmf-dist/web2c/texmf.cnf" 1739380943 42148 61becc7c670cd061bb319c643c27fdd4 ""
   "/usr/local/texlive/2025/texmf-var/web2c/xetex/xelatex.fmt" 1762874951 5639810 d40420fe5dcc9244c665394ea059c289 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "awesome-cv.cls" 1763193395.64224 29967 1562a64ec84d6a74f1a9086ea76572c7 ""
-  "coverletter.aux" 1763194186.3154 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
-  "coverletter.tex" 1763194184.58071 8981 f5c8a7f02b57b0835e046fc39ddf8e44 ""
+  "awesome-cv.cls" 1763477135.20939 30320 f7b2a28381028f3e80ce653dd5901107 ""
+  "coverletter.aux" 1764919987.47579 72 8c65bdc4d59188fb5b97343f16100895 "pdflatex"
+  "coverletter.tex" 1764919985.43183 7634 df8cf6a715e00f8c3e69316af2c777b2 ""
   "profile.png" 1763194074.60716 315648 95e35d60a727486afff51622bf247474 ""
   (generated)
   "coverletter.aux"
